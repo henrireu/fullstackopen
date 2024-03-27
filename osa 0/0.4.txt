@@ -1,0 +1,13 @@
+tehtävä 0.4
+
+browser->>server: POST https://studies.cs.helsinki.fi/exampleapp/new_note
+
+server->>browser: Status Code: 302
+palvelin tekee kehotuksen selaimelle ja selain lataa uudelleen muistiinpanojen sivun
+
+sitten tapahtuu tämä sequenceDiagram mikä on esimerkkinä tehtävänannon yhteydessä.
+
+lyhennettynä:
+saadaan selaimelle palvelimelta HTML document, sitten css file, sitten javascript file
+
+nyt tekemäsi muistiinpano löytyy sivulta.

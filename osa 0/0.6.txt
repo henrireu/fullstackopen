@@ -1,0 +1,8 @@
+tehtävä 0.6
+
+browser->>server POST https://studies.cs.helsinki.fi/exampleapp/new_note_spa
+selain lähettää JSON tyyppistä dataa palvelimelle
+
+server->>browser Status Code: 201 Created
+palvelin ilmoittaa että toiminto suoritettu. Tämän jälkeen palvelin ei pyydä uudelleenohjausta
+kuten 0.4 tehtävän sivulla. Eli toiminnot suoritettu ja selain pysyy samalla sivulla.
