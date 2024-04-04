@@ -1,0 +1,14 @@
+img {
+  height: 100px;
+  width: 100px;
+}
+
+.same {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+button {
+  height: 20px;
+}
