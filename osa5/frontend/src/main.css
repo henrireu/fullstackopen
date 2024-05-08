@@ -1,0 +1,27 @@
+.newblog {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    width: 70px;
+    height: 30px;
+}
+
+.errormessage {
+    color: red;
+}
+
+.message {
+    color: green;
+}
+
+p {
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+.box {
+    margin-top: 4px;
+    border: solid black;
+}
