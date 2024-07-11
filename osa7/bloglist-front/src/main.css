@@ -1,0 +1,42 @@
+.newblog {
+  display: flex;
+  flex-direction: column;
+}
+
+.errormessage {
+  color: red;
+}
+
+.message {
+  color: green;
+}
+
+p {
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+
+.box {
+  margin-top: 4px;
+  border: solid black;
+}
+
+.navigationbar {
+  background-color: lightgray;
+  height: 40px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+  margin-left: 10px;
+  font-size: 18px;
+}
+
+.link:hover {
+  background-color: rgb(177, 174, 174);
+}
